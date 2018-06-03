@@ -10,8 +10,8 @@ setwd("/Users/vedantgadia/Documents/GitHub/ExData_Plotting1/")
 #Opening a Graphics Device in mac
 quartz()
 
-#Plot2
-#Plot of Global Active Power vs Timestamp
+#Plot3
+#Plot Energy sub metering vs Timestamp
 with(my_data, plot(Timestamp, Sub_metering_1, type = "l", xlab = "", ylab = "Energy sub metering"))
 with(my_data, points(Timestamp, Sub_metering_2, type = "l", col = "red"))
 with(my_data, points(Timestamp, Sub_metering_3, type = "l", col = "blue"))
